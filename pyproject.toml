@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "demo_project_DeepakSaini"
+version = "0.0.1"
+authors = [
+  { name="Deepak Saini", email="deepak170602@gmail.com" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/06Deepak/demo_pypi_package"
+"Bug Tracker" = "https://github.com/06Deepak/demo_pypi_package/issues"
